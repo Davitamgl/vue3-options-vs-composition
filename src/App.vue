@@ -14,6 +14,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     />
 
     <div class="wrapper">
+      <p>{{ $t("hello") }}</p>
       <HelloWorld msg="You did it!" />
 
       <nav>
